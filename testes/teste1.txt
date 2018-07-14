@@ -1,0 +1,29 @@
+void main(void){
+	int x; int y; int z; int i; int a[3];
+	int aux;
+	x = 21;
+	output(x);
+	y = x + 4;
+	output(y);
+	z = x + y;
+	output(z);
+	x = z;
+	output(x);
+	i = 0;
+	while(i < 3){
+		if(x < (z + 1)){
+			output(i);
+			a[i] = i; 
+			/*aux = a[i];
+			output(aux);*/
+		}
+		i = i + 1;
+	}
+
+	x = 0;
+	while(x < 3){
+		aux = a[x];
+		output(aux);
+		x = x + 1;
+	}	
+}

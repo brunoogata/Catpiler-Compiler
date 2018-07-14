@@ -1,0 +1,45 @@
+/* gdc sem erros */
+
+int a;
+
+int gdc (int u, int v)
+{
+    if (v == 0) return u;
+    else return gdc(v,u-u/v*v);
+}
+
+
+int input(void)
+{
+
+void output(int x)
+{
+}
+
+void main(void)
+{
+
+   int x;
+   int y;
+   int u;
+   int v[10];
+
+   x = input();
+   y = input();
+   output(gdc(x,y));
+
+   a = 1;
+
+   u = 0;
+   x = 1;
+   while (x <= 10)
+   {
+      u = u * 2;  
+      v[x] = u;
+      x = x + 1; 
+   }
+
+   /* teste return simples */   
+   return;
+
+}
