@@ -1,7 +1,7 @@
 # Catpiler - The Cat Compiler
 C- language compiler builded at Computational System Lab: Compilers discipline at ICT-Unifesp (Science and Technology Institute - Federal University of São Paulo).
 
-##### Target Machine: CatCORE 2.0
+#### Target Machine: CatCORE 2.0
 Catpiler generates an Assembly to **CatCORE-Processor 2.0** instructions set. Both incorporated ran at FPGA equipment.
 
 ## Useful Links:
